@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.FXMLDashboardController">
+   <left>
+      <HBox maxWidth="-Infinity" prefHeight="880.0" prefWidth="425.0" style="-fx-background-color: #f6b93b;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="880.0" prefWidth="425.0">
+               <children>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="425.0">
+                     <children>
+                        <JFXButton fx:id="btn_inicio" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#inicio" prefHeight="100.0" prefWidth="425.0" text="Inicio" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-home.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane layoutY="301.0" prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_ordenes" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#ordenes" prefHeight="100.0" prefWidth="425.0" text="Ordenes" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-list-box.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_clientes" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#clientes" prefHeight="100.0" prefWidth="425.0" text="Venta" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/users.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_almacen" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#almacen" prefHeight="100.0" prefWidth="425.0" text="Almacen" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-archive.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane layoutY="601.0" prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_mesas" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#mesas" prefHeight="100.0" prefWidth="425.0" text="Mesas" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-restaurant.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane layoutY="410.0" prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_eventos" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#eventos" prefHeight="100.0" prefWidth="425.0" text="Eventos" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-microphone.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane layoutY="510.0" prefHeight="100.0" prefWidth="450.0">
+                     <children>
+                        <JFXButton fx:id="btn_cerrarSesion" buttonType="RAISED" mnemonicParsing="false" onMouseClicked="#cerrarSesion" prefHeight="100.0" prefWidth="425.0" text="Cerrar Sesión" textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                        </JFXButton>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+                           <image>
+                              <Image url="@../icons/_ionicons_svg_ios-close-circle.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets right="25.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+               </children>
+            </VBox>
+         </children></HBox>
+   </left>
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox maxWidth="500.0" prefHeight="100.0" prefWidth="500.0" style="-fx-background-color: #ffa502;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </HBox>
+            <HBox maxWidth="-Infinity" prefHeight="100.0" prefWidth="1724.0" style="-fx-background-color: #20242d;" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <children>
+                  <ImageView nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/Fondo-Dashboard2.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="349.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="@../Imagenes/botellos.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <HBox style="-fx-background-color: #3d3d3d;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

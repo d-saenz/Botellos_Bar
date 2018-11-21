@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1495.0" style="-fx-background-color: #3d3d3d;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.FXMLOrdenesController">
+   <children>
+      <Label layoutX="64.0" layoutY="52.0" text="Ordenes" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+      <JFXTreeTableView fx:id="tables" currentItemsCount="5" layoutX="64.0" layoutY="152.0" prefHeight="633.0" prefWidth="1327.0" stylesheets="@tW.css" />
+   </children>
+</AnchorPane>
