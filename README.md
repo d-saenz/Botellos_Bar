@@ -6,6 +6,8 @@ Funciones:
   -Creación de pedidos
   -Mostrar Ordenes y Pedidos
   -Mostrar los datos del usuario
+  
+https://raw.githubusercontent.com/d-saenz/Botellos_Bar/master/Vista/Inicio.JPG
 
 Librerias usadas:
 https://github.com/jfoenixadmin/JFoenix
