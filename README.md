@@ -1,7 +1,7 @@
 # Botellos_Bar
 Aplicación para un Bar con Base de Datos programada en Java usando JavaFX como GUI.
 <br>Funciones:
-  <br>-Sistema de inicio de sesión con credenciales.
+  <br><pre>-Sistema de inicio de sesión con credenciales.</pre>
   <br>-Creación de ordenes de venta
   <br>-Creación de pedidos
   <br>-Mostrar Ordenes y Pedidos
