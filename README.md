@@ -8,7 +8,7 @@ Aplicación para un Bar con Base de Datos programada en Java usando JavaFX como 
   <br>-Mostrar los datos del usuario.</pre>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/d-saenz/Botellos_Bar/master/Vista/Inicio.JPG" width="350"/>
+<img src="https://raw.githubusercontent.com/d-saenz/Botellos_Bar/master/Vista/Inicio.JPG" width="600"/>
 </p>
 
 <br>Librerias usadas:
