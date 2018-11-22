@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1425.0" style="-fx-background-color: #3d3d3d;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="880.0" prefWidth="1495.0">
+         <children>
+            <JFXSpinner prefHeight="50.0" prefWidth="50.0" radius="1.0" />
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <JFXSpinner prefWidth="73.0" radius="10.0" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <JFXSpinner layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="50.0" radius="20.0" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <JFXSpinner layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="50.0" radius="30.0" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <JFXSpinner layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="50.0" radius="40.0" />
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="500.0" prefWidth="251.0">
+                     <children>
+                        <JFXSpinner layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="50.0" radius="50.0" />
+                        <Label prefHeight="46.0" prefWidth="330.0" text="Cargando Datos ..." textFill="WHITE">
+                           <font>
+                              <Font name="Century Gothic" size="36.0" />
+                           </font>
+                           <StackPane.margin>
+                              <Insets top="200.0" />
+                           </StackPane.margin>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+         </children>
+      </StackPane>
+   </children>
+</HBox>
